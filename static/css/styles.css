@@ -1,0 +1,102 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Minecraft', sans-serif;
+    transition: all 0.3s ease;
+}
+
+header {
+    background-color: rgb(169, 194, 248);
+    text-align: center;
+}
+
+header nav {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav a {
+    color: black;
+    text-transform: uppercase;
+    padding: 0px 10px;
+}
+
+header nav a:hover {
+    color: rgb(99, 99, 99);
+}
+
+.banner {
+    text-align: center;
+    background-image: url(../img/banner2.png);
+    background-size: cover;
+    height: 600px;
+    padding-top: 150px;
+    background-position: center;
+}
+
+.banner h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner p {
+    font-size: 1.6em;
+    font-weight: 300;
+    margin: 7px;
+
+}
+
+.banner a {
+    background-color: rgb(99, 99, 99);
+    color: white;
+    padding: 12px 22px;
+    border-radius: 50px;
+    margin-top: 100;
+    display: inline-block;
+}
+
+.banner a:hover {
+    background-color: rgb(169, 194, 248);
+    color: black;
+    transition: 0.5s;
+
+}
+
+.servicos {
+    background-color: rgb(169, 194, 248);
+    padding: 50px 0;
+    text-align: center;
+
+}
+
+.servicos h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(0, 72, 255);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+.servicos div {
+    background-color: white;
+    width: 350px;
+    padding: 30px;
+    margin: 40px auto;
+    border-radius: 20px;
+    box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.servicos div h3 {
+    font-size: 30px;
+    color: black;
+
+    margin-bottom: 20px;
+}
